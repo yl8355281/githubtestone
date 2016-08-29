@@ -6,6 +6,15 @@ package com.qf.mygittest;
 public class News {
     private String name;
     private String pwd;
+    private int id;
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
 
     @Override
     public String toString() {
