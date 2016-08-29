@@ -7,6 +7,19 @@ public class News {
     private String name;
     private String pwd;
 
+    @Override
+    public String toString() {
+        return "News{" +
+                "name='" + name + '\'' +
+                ", pwd='" + pwd + '\'' +
+                '}';
+    }
+
+    public News(String name, String pwd) {
+        this.name = name;
+        this.pwd = pwd;
+    }
+
     public String getName() {
         return name;
     }
